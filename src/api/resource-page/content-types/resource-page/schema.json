@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "resource_pages",
+  "info": {
+    "singularName": "resource-page",
+    "pluralName": "resource-pages",
+    "displayName": "Resource Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "resource_categories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.resource-category"
+    }
+  }
+}

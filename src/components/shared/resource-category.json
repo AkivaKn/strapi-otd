@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_resource_categories",
+  "info": {
+    "displayName": "Resource Category"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "resource_subcatgories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.resource-sub-category"
+    }
+  }
+}
