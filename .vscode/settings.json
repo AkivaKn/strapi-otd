@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "undefined/subscriptions/ea6b4104-5051-4eef-9050-24e0532f8628/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/strapi-otd",
+  "appService.deploySubpath": "."
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_supports",
+  "info": {
+    "displayName": "Support",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.paragraph"
+    }
+  }
+}
